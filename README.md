@@ -18,7 +18,7 @@ using PortSwigger Web Security Academy.
 | File Upload | ✅ Done | PortSwigger |
 | Race Conditions | ✅ Done | PortSwigger |
 | SSRF | ✅ Done | PortSwigger |
-| XXE Injection | ⬜ | |
+| XXE Injection | ✅ Done | PortSwigger |
 | NoSQL injection | ⬜ | |
 | API testing | ⬜ | |
 | Web cache deception | ⬜ | |
