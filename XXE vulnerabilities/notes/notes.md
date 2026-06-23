@@ -173,4 +173,17 @@ XML/SVG markup is NOT a script. It has no logic, loops, or functions. It's passi
 
 ---
 
+## Labs Not Completed (Burp Suite Professional Required)
+Attempted but app explicitly blocks entities with:
+"Entities are not allowed for security reasons"
+
+These labs require Burp Collaborator to receive
+out-of-band DNS/HTTP callbacks — not available
+in Community Edition.
+
+- Blind XXE with out-of-band interaction
+- Blind XXE with out-of-band interaction via XML parameter entities
+- Exploiting blind XXE to exfiltrate data using a malicious external DTD
+- Exploiting blind XXE to retrieve data via error messages
+  
 *Notes based on PortSwigger Web Security Academy XXE module. Reference payloads sourced from GoSecure's GitHub repository.*
