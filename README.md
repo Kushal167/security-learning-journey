@@ -20,7 +20,7 @@ using PortSwigger Web Security Academy.
 | SSRF | ✅ Done | PortSwigger |
 | XXE Injection | ✅ Done | PortSwigger (5/9) |
 | NoSQL injection | ✅ Done| PortSwigger |
-| API testing | ⬜ | |
+| API testing | ✅ Done | PortSwigger |
 | Web cache deception | ⬜ | |
 
 
