@@ -21,7 +21,7 @@ using PortSwigger Web Security Academy.
 | XXE Injection | ✅ Done | PortSwigger (5/9) |
 | NoSQL injection | ✅ Done| PortSwigger |
 | API testing | ✅ Done | PortSwigger |
-| Web cache deception | ✅ Done | |
+| Web cache deception | ✅ Done | PortSwigger |
 
 
 ## Repository Structure
