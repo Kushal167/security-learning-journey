@@ -88,7 +88,7 @@ If quotes are blocked, string-free variants and CSP-bypass variants exist on Por
 live cheat sheet under "AngularJS" filters, copy the exact vector from there since it is
 regularly updated as browsers change.
 
-## 10. DOM XSS — sink-specific payloads
+## 10. DOM XSS: sink-specific payloads
 
 | Sink | Trigger payload (as URL param / hash value) |
 |---|---|
