@@ -1,4 +1,4 @@
-# Cross-Site Scripting (XSS) — Notes
+# Cross-Site Scripting (XSS) Notes
 Source topic: PortSwigger Web Security Academy → Client-side topics → Cross-site scripting
 https://portswigger.net/web-security/cross-site-scripting
 
