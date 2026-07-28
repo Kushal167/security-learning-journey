@@ -24,6 +24,11 @@ using PortSwigger Web Security Academy.
 | Web cache deception | ✅ Done | PortSwigger |
 
 
+## Client-Side topics
+| Topic | Status | Platform |
+|---|---|---|
+
+
 ## Repository Structure
 
 📁 notes/          → detailed topic notes
