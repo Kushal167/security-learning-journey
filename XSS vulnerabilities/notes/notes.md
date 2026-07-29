@@ -134,9 +134,9 @@ scripts the browser will execute, as defense-in-depth against XSS.
 5. Prefer frameworks/template engines that auto-escape by context (React, Angular 2+, modern
    templating engines) over hand-rolled string concatenation.
 
-## 9. Confirming a hit — `alert()` vs `print()`
+## 9. Confirming a hit: `alert()` vs `print()`
 
 `alert()` is the traditional PoC because it's short and unmistakable. Since Chrome 92
 (20 Jul 2021), **cross-origin iframes can no longer call `alert()`**. For attacks built inside
-a cross-origin iframe, use `print()` instead — PortSwigger labs accept either where relevant.
+a cross-origin iframe, use `print()` instead. PortSwigger labs accept either where relevant.
 
