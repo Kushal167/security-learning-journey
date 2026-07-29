@@ -125,10 +125,10 @@ scripts the browser will execute, as defense-in-depth against XSS.
 
 ## 8. Preventing XSS (for when you're defending, not attacking)
 
-1. **Filter input on arrival** — validate against an allow-list of expected characters/format.
-2. **Encode output** — HTML-encode data written into HTML bodies/attributes; JS-encode data
+1. **Filter input on arrival** : validate against an allow-list of expected characters/format.
+2. **Encode output** : HTML-encode data written into HTML bodies/attributes; JS-encode data
    written into script contexts; URL-encode data written into URLs.
-3. **Use correct response headers** — `Content-Type` + `X-Content-Type-Options: nosniff` so
+3. **Use correct response headers** : `Content-Type` + `X-Content-Type-Options: nosniff` so
    browsers don't MIME-sniff a response into HTML.
 4. **CSP as a last line of defense.**
 5. Prefer frameworks/template engines that auto-escape by context (React, Angular 2+, modern
