@@ -27,7 +27,7 @@ using PortSwigger Web Security Academy.
 ## Client-Side topics
 | Topic | Status | Platform |
 |---|---|---|
-| XSS Vulnerabilities | in progress | PortSwigger |
+| XSS Vulnerabilities | 🔄 in progress | PortSwigger |
 
 
 ## Repository Structure
